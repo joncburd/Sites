@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.burditt.jonathan.sites">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".GermanyCities"
+            android:label="@string/title_activity_germany_cities"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.burditt.jonathan.sites.MainActivity" />
+        </activity>
+        <activity
+            android:name=".AustrianCities"
+            android:label="@string/title_activity_austrian_cities"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.burditt.jonathan.sites.MainActivity" />
+        </activity>
+        <activity
+            android:name=".CzechCities"
+            android:label="@string/title_activity_czech_cities"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.burditt.jonathan.sites.MainActivity" />
+        </activity>
+        <activity
+            android:name=".DanishCities"
+            android:label="@string/title_activity_danish_cities"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.burditt.jonathan.sites.MainActivity" />
+        </activity>
+        <activity
+            android:name=".HungarianCities"
+            android:label="@string/title_activity_hungarian_cities"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.burditt.jonathan.sites.MainActivity" />
+        </activity>
+        <activity
+            android:name=".PolishCities"
+            android:label="@string/title_activity_polish_cities"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.burditt.jonathan.sites.MainActivity" />
+        </activity>
+        <activity
+            android:name=".FilipinoCities"
+            android:label="@string/title_activity_filipino_cities"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.burditt.jonathan.sites.MainActivity" />
+        </activity>
+        <activity
+            android:name=".SingaporeanCities"
+            android:label="@string/title_activity_singaporean_cities"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.burditt.jonathan.sites.MainActivity" />
+        </activity>
+        <activity
+            android:name=".SalzburgSites"
+            android:label="@string/title_activity_salzburg_sites"
+            android:parentActivityName=".AustrianCities"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.burditt.jonathan.sites.AustrianCities" />
+        </activity>
+        <activity
+            android:name=".BerlinSites"
+            android:label="@string/title_activity_berlin_sites"
+            android:parentActivityName=".GermanyCities"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.burditt.jonathan.sites.GermanyCities" />
+        </activity>
+        <activity
+            android:name=".CologneSites"
+            android:label="@string/title_activity_cologne_sites"
+            android:parentActivityName=".GermanyCities"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.burditt.jonathan.sites.GermanyCities" />
+        </activity>
+        <activity
+            android:name=".DauchauSites"
+            android:label="@string/title_activity_dauchau_sites"
+            android:parentActivityName=".GermanyCities"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.burditt.jonathan.sites.GermanyCities" />
+        </activity>
+        <activity
+            android:name=".MoselArea"
+            android:label="@string/title_activity_mosel_area"
+            android:parentActivityName=".GermanyCities"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.burditt.jonathan.sites.GermanyCities" />
+        </activity>
+        <activity
+            android:name=".RhineAreaSites"
+            android:label="@string/title_activity_rhine_area_sites"
+            android:parentActivityName=".GermanyCities"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.burditt.jonathan.sites.GermanyCities" />
+        </activity>
+        <activity
+            android:name=".DresdenSites"
+            android:label="@string/title_activity_dresden_sites"
+            android:parentActivityName=".GermanyCities"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.burditt.jonathan.sites.GermanyCities" />
+        </activity>
+        <activity
+            android:name=".OtherGermanySites"
+            android:label="@string/title_activity_other_germany_sites"
+            android:parentActivityName=".GermanyCities"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.burditt.jonathan.sites.GermanyCities" />
+        </activity>
+        <activity
+            android:name=".FussenSites"
+            android:label="@string/title_activity_fussen_sites"
+            android:parentActivityName=".GermanyCities"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.burditt.jonathan.sites.GermanyCities" />
+        </activity>
+        <activity
+            android:name=".MunichSites"
+            android:label="@string/title_activity_munich_sites"
+            android:parentActivityName=".GermanyCities"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.burditt.jonathan.sites.GermanyCities" />
+        </activity>
+        <activity
+            android:name=".PotsdamSites"
+            android:label="@string/title_activity_potsdam_sites"
+            android:parentActivityName=".GermanyCities"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.burditt.jonathan.sites.GermanyCities" />
+        </activity>
+        <activity
+            android:name=".WittenbergSites"
+            android:label="@string/title_activity_wittenberg_sites"
+            android:parentActivityName=".GermanyCities"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.burditt.jonathan.sites.GermanyCities" />
+        </activity>
+        <activity
+            android:name=".HamburgSites"
+            android:label="@string/title_activity_hamburg_sites"
+            android:parentActivityName=".GermanyCities"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.burditt.jonathan.sites.GermanyCities" />
+        </activity>
+        <activity
+            android:name=".LeipzigSites"
+            android:label="@string/title_activity_leipzig_sites"
+            android:parentActivityName=".GermanyCities"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.burditt.jonathan.sites.GermanyCities" />
+        </activity>
+        <activity
+            android:name=".MoselCountrySites"
+            android:label="@string/title_activity_mosel_country_sites"
+            android:parentActivityName=".GermanyCities"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.burditt.jonathan.sites.GermanyCities" />
+        </activity>
+        <activity
+            android:name=".RothenbergSites"
+            android:label="@string/title_activity_rothenberg_sites"
+            android:parentActivityName=".GermanyCities"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.burditt.jonathan.sites.GermanyCities" />
+        </activity>
+        <activity
+            android:name=".SwissAlpsSites"
+            android:label="@string/title_activity_swiss_alps_sites"
+            android:parentActivityName=".GermanyCities"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.burditt.jonathan.sites.GermanyCities" />
+        </activity>
+        <activity
+            android:name=".AuschwitzSites"
+            android:label="@string/title_activity_auschwitz_sites"
+            android:parentActivityName=".GermanyCities"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.burditt.jonathan.sites.GermanyCities" />
+        </activity>
+        <activity
+            android:name=".KrakowSites"
+            android:label="@string/title_activity_krakow_sites"
+            android:parentActivityName=".GermanyCities"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.burditt.jonathan.sites.GermanyCities" />
+        </activity>
+        <activity
+            android:name=".WarsawSites"
+            android:label="@string/title_activity_warsaw_sites"
+            android:parentActivityName=".GermanyCities"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.burditt.jonathan.sites.GermanyCities" />
+        </activity>
+    </application>
+
+</manifest>
